@@ -1,7 +1,10 @@
-python-telegram-bot==20.3
-pandas
-openpyxl
-ffmpeg-python
-openai-whisper
-torch==2.0.1
-torchaudio==2.0.2
+from telegram import Update
+from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
+import pandas as pd
+import os
+import whisper
+from datetime import datetime
+import ffmpeg
+import uuid
+import asyncio
+import subprocess
