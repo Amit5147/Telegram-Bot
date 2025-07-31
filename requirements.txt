@@ -1,0 +1,7 @@
+python-telegram-bot==20.3
+pandas
+openpyxl
+ffmpeg-python
+openai-whisper
+torch==2.0.1
+torchaudio==2.0.2
